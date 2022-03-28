@@ -1,0 +1,63 @@
+.jngl__job__list-item {
+  padding: 1.714em;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 0.571em;
+  cursor: pointer;
+}
+
+.jngl__job__list-item h3 {
+  font-weight: 500;
+}
+
+.job__info {
+  display: flex;
+  gap: 1.143em 1.143em; /* 16px row / column gap */
+  align-items: center;
+  margin-bottom: 1.143em;
+}
+
+.job__company-avatar {
+  display: inline-block;
+  position: relative;
+  border-radius: 0.286em;
+  background-color: hsl(0,0%,100%);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.job__company-avatar img {
+  width: 48px;
+  height: 48px;
+}
+
+.job__meta {
+  display: flex;
+  gap: 1.143em 1.143em; /* 16px row / column gap */
+  align-items: center;
+  margin-bottom: 1.143em;
+}
+
+.job__featured {
+  display: flex;
+  align-items: center;
+  color: rgba(106, 115, 124, 1);
+}
+
+.job__featured li:not(:last-child)::after {
+  content: '\2022';
+  margin: 0 0.286em;
+}
+
+.job__tag {
+  display: inline-block;
+  padding: .2em .429em;
+  border-radius: 0.286em;
+  margin-right: .357em;
+}
+
+.job__tag.keyword {
+  background-color: rgba(87, 90, 216, 1);
+  background-color: rgba(228, 229, 232, 1);
+  //color: rgba(228, 229, 249, 1);
+  color: rgba(81, 88, 97, 1);
+}

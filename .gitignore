@@ -1,0 +1,22 @@
+/node_modules
+/coverage
+/functional-xml-results
+dist
+.cache
+bundle.js
+yarn-error.log
+npm-debug.log
+.idea
+reports
+cookiejar1
+rsp1
+.nyc_output
+sh.exe.stackdump
+npm-debug.*
+package-lock.json
+
+# mac os
+.DS_Store
+
+# project
+local-config.js
